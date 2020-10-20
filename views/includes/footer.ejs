@@ -1,0 +1,87 @@
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="footer-top_logo"><a href="index.html"><img src="assets/images/logo/logo.png" alt="Footer logo"/></a></div>
+            <div class="footer-top_txt">
+              <p>
+  Offering the whole product range of stock feeds to suit
+                        livestock farmers. Packaging of basic food products for
+                        Zimbabweans e.g salt, sugar beans etc
+              </p>
+            </div>
+            <div class="footer-top_address">
+                <div><i class="fa fa-phone"></i> Phone: <span>+263 73 296 285</span></div>
+                <div><i class="fa fa-envelope-o"></i> E-mail: <span><a href="mailto:support@email.com">support@email.com</a></span></div>
+                <div><i class="fa fa-home"></i> Location: <span>Stand 8 Melfort Park, Goromonzi</span></div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6 col-md-6 col-sm-12 marg-sm-50 col-xs-12">
+            <div class="footer-top_contact_form">
+              <div class="contact_form_t">Contact Form</div>
+                  <form action="mail.php" method="POST" class="row form-horizontal form-wizzard">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <input type="text" name="name" class="form-control" placeholder="Name ..."/>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <input type="email" name="email" class="form-control" placeholder="Email ..."/>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <textarea rows="6" name="message" class="form-control" placeholder="Message ..."></textarea>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-right">
+                      <input type="submit" value="Send message" class="btn btn-default"/>
+                    </div>
+                  </form>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="footer-bottom_copy">Copyright © <script>document.write(new Date().getFullYear())</script> FoodQuest. Made with <i class="fa fa-heart"></i> by <a href="https://innovqod.co.zw" target="_blank">Innovqod</a></div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="footer-bottom_links">
+              <a <% if (title === 'Home') { %>class="active" <% } %> href="/">Home</a>
+              <a <% if (title === 'Contacts') { %>class="active" <% } %> href="/contacts">Contacts</a>
+              <a <% if (title === 'About Us') { %>class="active" <% } %>  href="/about">About us</a>
+              <!-- <a href="/">Pur</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+  <!-- /footer -->
+  <!-- Scripts -->
+  <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/tether.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"></script>
+  <script type="text/javascript" src="assets/js/moment.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.smartmenus.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.parallax.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.shuffle.min.js"></script>
+  <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwUZQ3AosR0AsngfummIWcaY_FxdKvTw"></script>
+  <script type="text/javascript" src="assets/js/map.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+  <!-- /Scripts -->
+  <script>
+
+const getQouteButton = document.querySelector('.get-qoute');
+getQouteButton.addEventListener('click', () => {
+window.scrollTo({ top: 0, behavior: 'smooth' });
+})
+
+  </script>
+</body>
+</html>

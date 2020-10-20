@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>FootQuest | <%= title %></title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link rel="shortcut icon" href="assets/images/favicon/favicon.png" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+    </head>
+    <body >
+        <!-- main wrapper -->
+        <div class="wrapper">
+            <!-- header -->
+            <header class="header">
+                <div class="header-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12">
+                                <div class="header-location">
+                                    <i class="fa fa-home"></i>
+                                    <a href="#">Stand 8 Melfort Park, Goromonzi</a>
+                                </div>
+                                <div class="header-email">
+                                    <i class="fa fa-envelope-o"></i>
+                                    <a href="mailto:support@email.com"
+                                        >support@email.com</a
+                                    >
+                                </div>
+                                <div class="header-phone">
+                                    <i class="fa fa-phone"></i>
+                                    <a href="#">+263 73 296 285</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                                <div class="header-social pull-right">
+                                    <a href="#"
+                                        ><i class="fa fa-twitter"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-facebook"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-google-plus"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-dribbble"></i
+                                    ></a>
+                                    <a href="#"
+                                        ><i class="fa fa-instagram"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom">
+                    <nav class="navbar navbar-universal navbar-custom">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="logo">
+                                        <a
+                                            href="index.html"
+                                            class="navbar-brand page-scroll"
+                                            ><img
+                                                src="assets/images/logo/logo.png"
+                                                alt="logo"
+                                        /></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <div class="navbar-header">
+                                        <button
+                                            type="button"
+                                            data-toggle="collapse"
+                                            data-target=".navbar-main-collapse"
+                                            class="navbar-toggle"
+                                        >
+                                            <span class="sr-only"
+                                                >Toggle navigation</span
+                                            ><span class="icon-bar"></span
+                                            ><span class="icon-bar"></span
+                                            ><span class="icon-bar"></span>
+                                        </button>
+                                    </div>
+                                    <div
+                                        class="collapse navbar-collapse navbar-main-collapse"
+                                    >
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li <% if (title === 'Home') { %>class="active" <% } %> >
+                                                <a href="/">Home</a>
+                                            </li>
+                                            <li  <% if (title === 'About Us') { %>class="active" <% } %> >
+                                                <a href="/about"
+                                                    >About Us</a
+                                                >
+                                            </li>
+                                            <li   <% if (title === 'Contacts') { %>class="active" <% } %> >
+                                                <a href="/contacts"
+                                                    >Contacts</a
+                                                >
+                                            </li>
+                                            <!-- <li  <% if (title === 'F.A.Q') { %>class="active" <% } %> >
+                                                <a href="/faq">F.A.Q</a>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- /header -->
