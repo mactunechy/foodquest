@@ -59,7 +59,8 @@ router.post('/contacts', (req, res) => {
                 console.log(error);
                 res.render('contacts', {
                     title: 'Contacts',
-                    emailError: 'Failed to send email, try again'
+                    emailError: 'Failed to send email, try again',
+                    emailSuccess: null
                 }); // Show a page indicating failure
             } else {
                 console.log('alert-success: email sent');
