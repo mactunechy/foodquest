@@ -107,7 +107,8 @@ router.post('/', (req, res) => {
                 console.log(error);
                 res.render('/', {
                     title: 'Home',
-                    emailError: 'Failed to send email, try again'
+                    emailError: 'Failed to send email, try again',
+                    emailSuccess: null
                 }); // Show a page indicating failure
             } else {
                 console.log('alert-success: email sent');
