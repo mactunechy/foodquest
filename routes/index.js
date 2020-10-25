@@ -106,14 +106,14 @@ router.post('/', (req, res) => {
         smtpTrans.sendMail(mailOpts, (error, response) => {
             if (error) {
                 console.log(error);
-                res.render('/index', {
+                res.render('index', {
                     title: 'Home',
                     emailError: 'Failed to send email, try again',
                     emailSuccess: null
                 }); // Show a page indicating failure
             } else {
                 console.log('alert-success: email sent');
-                res.render('/index', {
+                res.render('index', {
                     emailSuccess: 'Email sent successfully',
                     title: 'Home',
                     emailError: null
@@ -122,7 +122,7 @@ router.post('/', (req, res) => {
         });
     } catch (error) {
         console.log(error);
-        res.render('/index', {
+        res.render('index', {
             title: 'Home',
             emailSuccess: null,
             emailError: 'Failed to send email, try again'
